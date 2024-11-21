@@ -1,0 +1,26 @@
+name: word_finder
+description: A Flutter app to help with spelling and phrasing
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0  # For API calls
+  google_generative_ai: ^0.1.0  # For Google Gemini AI
+  flutter_tts: ^3.8.5  # For text-to-speech
+  shared_preferences: ^2.2.2  # For storing settings
+  provider: ^6.1.1  # For state management
+  flutter_typeahead: ^5.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
